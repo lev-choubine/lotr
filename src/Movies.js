@@ -2,8 +2,10 @@ function Movies(props){
     return(
         <div>
             <h1>{props.title}</h1>
-            <p>{props.hours}</p>
-            <p>{props.minutes}</p>
+            <span>{props.hours}</span> 
+            <span> hours </span>
+            <span>{props.minutes}</span>
+            <span> minutes</span>
         </div>
     )
 }
